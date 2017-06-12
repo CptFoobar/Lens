@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lens Preferences</title>
+
+        <link rel="stylesheet" href="../lib/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="../lib/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/fonts.css">
+        <link rel="stylesheet" href="../css/preferences.css">
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <table id="optionsTable" class="table">
+                    <tbody>
+
+                        <tr>
+                            <td>Show Time and Date
+                            </td>
+                            <td><input type="checkbox" id="showTimeDate"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Categories:
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table class="table category-table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+												<input type="checkbox" class="category-item" id="city">
+                                                <span style="padding-left: 10px;">City</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="computer">
+                                                <span style="padding-left: 10px;">Computer</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="flowers">
+                                                <span style="padding-left: 10px;">Flowers</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+												<input type="checkbox" class="category-item" id="food">
+                                                <span style="padding-left: 10px;">Food</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="home">
+                                                <span style="padding-left: 10px;">Home</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="landscape">
+                                                <span style="padding-left: 10px;">Landscape</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+												<input type="checkbox" class="category-item" id="mountains">
+                                                <span style="padding-left: 10px;">Mountains</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="music">
+                                                <span style="padding-left: 10px;">Music</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="nasa">
+                                                <span style="padding-left: 10px;">NASA</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+												<input type="checkbox" class="category-item" id="nature">
+                                                <span style="padding-left: 10px;">Nature</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="people">
+                                                <span style="padding-left: 10px;">People</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="shopping">
+                                                <span style="padding-left: 10px;">Shopping</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+												<input type="checkbox" class="category-item" id="sky">
+                                                <span style="padding-left: 10px;">Sky</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="tree">
+                                                <span style="padding-left: 10px;">Tree</span>
+                                            </td>
+                                            <td>
+												<input type="checkbox" class="category-item" id="work">
+                                                <span style="padding-left: 10px;">Work</span>
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+						<tr>
+                            <td>Random Images<br /><small>&emsp; Ignores Category choices</small>
+                            </td>
+                            <td><input type="checkbox" id="randomImages"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="../lib/jquery/jquery-2.2.4.min.js"></script>
+        <!-- Include all compiled plugins (bow), or include individual files as needed -->
+        <script src="../lib/bootstrap/bootstrap.min.js"></script>
+        <script src="../js/preferences.js" charset="utf-8"></script>
+
+    </body>
+</html>

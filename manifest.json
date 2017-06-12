@@ -1,0 +1,28 @@
+{
+    "name": "Lens",
+    "short_name": "Lens",
+    "description": "Lens replaces your new tab page with gorgeous HD images from Unsplash.",
+    "version": "1.0.0",
+    "homepage_url": "http://sidhant.io/",
+
+    "icons": {
+        "48": "data/img/lens_96.png",
+        "64": "data/img/lens_96.png",
+        "96": "data/img/lens_96.png"
+    },
+	"chrome_url_overrides" : {
+	    "newtab": "data/newtab.html"
+	},
+	"permissions": ["storage"],
+    "options_ui": {
+        "page": "data/markup/preferences.html",
+        "open_in_tab": false,
+		"browser_style": false
+    },
+    "developer": {
+        "name": "Sidhant Sharma [:tk]",
+        "url": "http://sidhant.io"
+    },
+
+	"manifest_version": 2
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lens - New Tab</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/newtab.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+    </head>
+    <body>
+
+        <div id="unsplash" class="noselect">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 bar-top">
+                        <div class="pull-left">
+                            <span id="unsplash-logo" data-href="" class="overlay-icon">
+                                <i class="fa fa-camera icon-unsplash"></i>
+                            </span>
+                        </div>
+                        <div class="pull-right">
+                            <span id="download-image" class="overlay-icon" data-src="" data-file-name="">
+                                <i class="fa fa-arrow-circle-o-down icon-download"></i>
+                            </span>
+                            <!-- <span id="share" class="overlay-icon">
+                                <i class="fa fa-share-alt icon-share"></i>
+                            </span> -->
+                        	</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3 col-md-2 col-md-push-5">
+                        <div class="clocky noselect">
+                            <span id="clocky-timer-hour"></span>
+                            <span style="font-family: work_sans_light; font-size: 0.75em; vertical-align: text-top;" id="clocky-colon"></span>
+                            <span id="clocky-timer-minute"></span>
+                            <span id="clocky-timer-icon">
+                                <i class="fa"></i>
+                            </span>
+                            <span id="clocky-timer-date"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 bar-bottom footer navbar-fixed-bottom">
+                        <div class="credits pull-left">
+                            <span class="credits-location noselect">
+
+                            </span>
+                        </div>
+                        <div class="credits pull-right">
+                            <span class="credits-link">
+                                <i class="fa fa-camera-retro"></i>
+								<span></span>
+                            </span>
+                            <!-- <span class="btn-share">
+                                <i class="fa fa-share-alt fa-2x"></i>
+                            </span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="lib/jquery/jquery-2.2.4.min.js"></script>
+        <!-- Include all compiled plugins (bow), or include individual files as needed -->
+        <script src="lib/bootstrap/bootstrap.min.js"></script>
+        <script src="lib/moment/moment.min.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/newtab.js"></script>
+    </body>
+</html>

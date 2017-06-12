@@ -1,0 +1,25 @@
+html, body {
+    background-color: #fbfbfb;
+}
+
+.category-table {
+	background-color: #fbfbfb !important;
+}
+
+.category-table td, .category-table tr {
+	border: none !important;
+}
+
+#optionsTable {
+    font-size: 1.23em;
+    background-color: #fbfbfb;
+}
+
+input[type="checkbox"] {
+    -moz-transform: scale(1.35);
+}
+
+input[type="checkbox"]:focus,
+input[type="checkbox"]:active {
+    outline: none;
+}
